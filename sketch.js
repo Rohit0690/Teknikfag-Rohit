@@ -6,7 +6,7 @@ function setup() {
   connectionDiv = select('#connection')
 
   mqttInit()
-//this is 
+
   client.subscribe('#')
 
   client.on('message', async (topic, message) => {
